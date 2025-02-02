@@ -1,26 +1,38 @@
 {
     "en": {
         "common": {
-            "hello": "Hello",
-            "world": "World"
+            "hello": "Hello JRH",
+            "tappingJoin": "By tapping Join you agree to our",
+            "terms": "Terms",
+            "howHandleYourData": "See how we handle your data in our",
+            "privacyPolicy": "Privacy Policy"
         },
         "login": {
             "title": "Login",
             "username": "Username",
             "password": "Password",
             "login": "Login"
+        },
+        "user": {
+            "myAccount": "My Account"
         }
     },
     "es": {
         "common": {
             "hello": "Hola",
-            "world": "Mundo"
+            "tappingJoin": "Al tocar unirse, aceptas nuestros",
+            "terms": "Términos",
+            "howHandleYourData": "Consulta cómo manejamos tus datos en nuestra",
+            "privacyPolicy": "Política de privacidad"
         },
         "login": {
             "title": "Iniciar sesión",
             "username": "Usuario",
             "password": "Contraseña",
             "login": "Iniciar sesión"
+        },
+        "user": {
+            "myAccount": "Mi Cuenta"
         }
     }
 }
