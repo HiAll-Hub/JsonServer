@@ -54,6 +54,8 @@ let databases = loadDatabases();
 app.get('/api/:db', (req, res) => {
     const { db } = req.params;
 
+    console.log(`🔍 Consultando base de datos: ${db}`);
+
     if (!databases[db]) {
         return res.status(404).json({ error: `Database '${db}' not found` });
     }
@@ -64,6 +66,8 @@ app.get('/api/:db', (req, res) => {
 // 🔹 Endpoint para obtener todos los datos de un recurso en una base de datos específica
 app.get('/api/:db/:resource', (req, res) => {
     const { db, resource } = req.params;
+
+    console.log(`🔍 Consultando recurso: ${resource} en base de datos: ${db}`);
 
     if (!databases[db]) {
         return res.status(404).json({ error: `Database '${db}' not found` });
@@ -79,6 +83,8 @@ app.get('/api/:db/:resource', (req, res) => {
 // 🔹 Endpoint para obtener un ítem específico dentro de un recurso en una base de datos
 app.get('/api/:db/:resource/:id', (req, res) => {
     const { db, resource, id } = req.params;
+
+    console.log(`🔍 Consultando recurso: ${resource} con ID: ${id} en base de datos: ${db}`);
 
     if (!databases[db]) {
         return res.status(404).json({ error: `Database '${db}' not found` });
