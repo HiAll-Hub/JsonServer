@@ -1,7 +1,16 @@
-const express = require('express');
-const cors = require('cors');
-const fs = require('fs-extra');
-const path = require('path');
+import { getIPAddress } from './libs/IPAddress.js';
+import express from 'express';
+import cors from 'cors';
+import fs from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+// Obtén la ruta del archivo actual
+const __filename = fileURLToPath(import.meta.url);
+
+// Obtén el directorio del archivo actual
+const __dirname = dirname(__filename);
 
 const app = express();
 const PORT = 3000;
@@ -36,6 +45,8 @@ const loadDatabases = () => {
 
     return databases;
 };
+
+const ipAddress = getIPAddress();
 
 let databases = loadDatabases();
 
@@ -96,5 +107,5 @@ app.use((req, res, next) => {
 
 
 app.listen(PORT, () => {
-    console.log(`📡 Server running at http://localhost:${PORT}/api`);
+    console.log(`📡 Server running at http://${ipAddress}:${PORT}/api`);
 });
