@@ -124,7 +124,7 @@ process.stdin.setEncoding('utf8');
 process.stdin.on('data', (key) => {
     if (key === 'r' || key === 'R') {
         console.log('\n🔄 Recargando bases de datos...');
-        loadDatabases();
+        databases = loadDatabases();
     } else if (key === '\u0003') { // Ctrl+C para salir
         console.log('\n👋 Saliendo del servidor...');
         process.exit();
