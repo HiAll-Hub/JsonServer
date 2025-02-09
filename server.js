@@ -33,8 +33,12 @@ const loadDatabases = () => {
     const config = loadConfig();
     const databases = {};
 
+    console.log('config:' + JSON.stringify(config));
+
+
+    console.log(`[${new Date().toLocaleTimeString()}] - Cargando Bases de datos ...`);
     config.dbs.forEach(dbName => {
-        console.log(`🔍 Cargando base de datos: ${dbName}`);
+        console.log(`🔍 BD Loading: ${dbName}`);
         const dbPath = `./data/${dbName}.json`;
         if (fs.existsSync(dbPath)) {
             databases[dbName] = fs.readJsonSync(dbPath, { throws: false }) || {};
@@ -54,7 +58,7 @@ let databases = loadDatabases();
 app.get('/api/:db', (req, res) => {
     const { db } = req.params;
 
-    console.log(`🔍 Consultando base de datos: ${db}`);
+    console.log(`🔍 [${new Date().toLocaleTimeString()}] - Consultando: ${db}`);
 
     if (!databases[db]) {
         return res.status(404).json({ error: `Database '${db}' not found` });
@@ -67,7 +71,7 @@ app.get('/api/:db', (req, res) => {
 app.get('/api/:db/:resource', (req, res) => {
     const { db, resource } = req.params;
 
-    console.log(`🔍 Consultando recurso: ${resource} en base de datos: ${db}`);
+    console.log(`🔍 [${new Date().toLocaleTimeString()}] - Consultando: ${db}/${resource}`);
 
     if (!databases[db]) {
         return res.status(404).json({ error: `Database '${db}' not found` });
@@ -84,7 +88,7 @@ app.get('/api/:db/:resource', (req, res) => {
 app.get('/api/:db/:resource/:id', (req, res) => {
     const { db, resource, id } = req.params;
 
-    console.log(`🔍 Consultando recurso: ${resource} con ID: ${id} en base de datos: ${db}`);
+    console.log(`🔍 [${new Date().toLocaleTimeString()}] - Consultando recurso: ${db}/${resource}/${id}`);
 
     if (!databases[db]) {
         return res.status(404).json({ error: `Database '${db}' not found` });
@@ -100,8 +104,9 @@ app.get('/api/:db/:resource/:id', (req, res) => {
 // 🔹 Recargar las bases de datos en memoria (por si se actualizan los archivos)
 app.get('/reload', (req, res) => {
     databases = loadDatabases();
-    res.json({ message: 'Databases reloaded successfully' });
+    res.json({ message: `[${new Date().toLocaleTimeString()}] - Databases reloaded successfully` });
 });
+
 
 // 🔹 Middleware para permitir CORS en archivos estáticos (por si fuera necesario)
 app.use((req, res, next) => {
@@ -123,7 +128,7 @@ process.stdin.setEncoding('utf8');
 
 process.stdin.on('data', (key) => {
     if (key === 'r' || key === 'R') {
-        console.log('\n🔄 Recargando bases de datos...');
+        console.log(`\n🔄 Recargando bases de datos... [${new Date().toLocaleTimeString()}]`);
         databases = loadDatabases();
     } else if (key === '\u0003') { // Ctrl+C para salir
         console.log('\n👋 Saliendo del servidor...');

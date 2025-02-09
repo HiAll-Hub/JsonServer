@@ -23,7 +23,8 @@
             "invalidCodeSms": "Code is invalid, Please try again"
         },
         "user": {
-            "myAccount": "My Account"
+            "My Account": "My Account en",
+            "Appearance": "Appearance en"
         }
     },
     "es": {
@@ -50,7 +51,7 @@
             "invalidCodeSms": "El código no es válido, Por favor, inténtelo de nuevo"
         },
         "user": {
-            "myAccount": "Mi Cuenta"
+            "My Account": "Mi Cuenta"
         }
     }
 }

@@ -3,6 +3,7 @@
         "translations",
         "allowsCountriesSMS",
         "privacyPolicy",
-        "termsAndConditions"
+        "termsAndConditions",
+        "status"
     ]
 }
