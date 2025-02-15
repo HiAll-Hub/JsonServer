@@ -1,9 +1,5 @@
 {
     "dbs": [
-        "translations",
-        "allowsCountriesSMS",
-        "privacyPolicy",
-        "termsAndConditions",
-        "status"
+        "utils"
     ]
 }

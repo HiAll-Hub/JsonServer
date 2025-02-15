@@ -17,6 +17,11 @@ const PORT = 3000;
 const CONFIG_FILE = './config.json';
 const PUBLIC_FOLDER = path.join(__dirname, 'public');
 
+app.use((req, res, next) => {
+    console.log(`Acceso a recurso: ${req.originalUrl}`);
+    next();
+});
+
 app.use(cors({
     origin: '*', // Permitir todos los dominios
     methods: ['GET'], // Solo permitir GET
@@ -24,6 +29,7 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(express.static(PUBLIC_FOLDER)); // Servir archivos estáticos desde "public/"
+
 
 // 🔹 Cargar configuración de bases de datos
 const loadConfig = () => fs.readJsonSync(CONFIG_FILE, { throws: false }) || { dbs: [] };
@@ -106,16 +112,6 @@ app.get('/reload', (req, res) => {
     databases = loadDatabases();
     res.json({ message: `[${new Date().toLocaleTimeString()}] - Databases reloaded successfully` });
 });
-
-
-// 🔹 Middleware para permitir CORS en archivos estáticos (por si fuera necesario)
-app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Methods", "GET");
-    res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
-    next();
-});
-
 
 app.listen(PORT, () => {
     console.log(`📡 Server running at http://${ipAddress}:${PORT}/api`);

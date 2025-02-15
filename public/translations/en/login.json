@@ -1,0 +1,17 @@
+{
+    "title": "Login",
+    "tappingJoin": "By tapping Join you agree to our",
+    "terms": "Terms",
+    "howHandleYourData": "See how we handle your data in our",
+    "privacyPolicy": "Privacy Policy",
+    "Join": "Join",
+    "LogByGoogle": "Log in with Google",
+    "sendCodeConfirmIdentity": "We'll send you a code to confirm your identity.",
+    "messageRateApply": "Standard message and data rates may apply.",
+    "sendVerificationCode": "Send Verification Code",
+    "smsCode": "SMS Code",
+    "didntReceiveCode": "Didn't receive anything? No worries, let's try again.",
+    "resendCode": "Resend Code",
+    "confirmSendCode": "Are you sure you want to resend the SMS code to this number",
+    "invalidCodeSms": "Code is invalid, Please try again"
+}

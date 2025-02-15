@@ -1,0 +1,17 @@
+{
+    "title": "Iniciar sesión",
+    "tappingJoin": "Al tocar unirse, aceptas nuestros",
+    "terms": "Términos",
+    "howHandleYourData": "Consulta cómo manejamos tus datos en nuestra",
+    "privacyPolicy": "Política de Privacidad",
+    "Join": "Unirse",
+    "LogByGoogle": "Iniciar sesión con Google",
+    "sendCodeConfirmIdentity": "Te enviaremos un código para confirmar tu identidad.",
+    "messageRateApply": "Pueden aplicarse tarifas estándar de mensajes y datos.",
+    "sendVerificationCode": "Enviar Código de Verificación",
+    "smsCode": "Código SMS",
+    "didntReceiveCode": "¿No recibiste nada? No te preocupes, intentémoslo de nuevo.",
+    "resendCode": "Reenviar Código",
+    "confirmSendCode": "¿Estás seguro de que deseas reenviar el código SMS a este número",
+    "invalidCodeSms": "El código no es válido, Por favor, inténtelo de nuevo"
+}
