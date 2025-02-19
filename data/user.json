@@ -1,0 +1,14 @@
+{
+    "status": "Ok",
+    "data": {
+        "_id": "111111484879ab9b6a111111",
+        "userId": "111111e5-760c-1111-9254-127643111111",
+        "fullName": "John",
+        "phoneNumber": 34610101010,
+        "email": "user@gmail.com",
+        "birthDayMonth": 5,
+        "birthDayYear": 1983,
+        "gender": "Male",
+        "__v": 0
+    }
+}
