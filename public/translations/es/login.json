@@ -13,5 +13,6 @@
     "didntReceiveCode": "¿No recibiste nada? No te preocupes, intentémoslo de nuevo.",
     "resendCode": "Reenviar Código",
     "confirmSendCode": "¿Estás seguro de que deseas reenviar el código SMS a este número",
-    "invalidCodeSms": "El código no es válido, Por favor, inténtelo de nuevo"
+    "invalidCodeSms": "El código no es válido, Por favor, inténtelo de nuevo",
+    "Verify Email": "Mantén su cuenta segura - verifique su correo electrónico para mantener el acceso"
 }

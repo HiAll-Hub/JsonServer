@@ -13,5 +13,6 @@
     "didntReceiveCode": "Didn't receive anything? No worries, let's try again.",
     "resendCode": "Resend Code",
     "confirmSendCode": "Are you sure you want to resend the SMS code to this number",
-    "invalidCodeSms": "Code is invalid, Please try again"
+    "invalidCodeSms": "Code is invalid, Please try again",
+    "Verify Email": "Keep your account secure — verify your email to maintain access"
 }

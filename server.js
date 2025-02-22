@@ -13,7 +13,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const PORT = 3000;
+const PORT = 3002;
 const CONFIG_FILE = './config.json';
 const PUBLIC_FOLDER = path.join(__dirname, 'public');
 

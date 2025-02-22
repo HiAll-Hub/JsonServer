@@ -1,6 +1,7 @@
 {
     "status": "Ok",
-    "data": {
+    "data": null,
+    "data2": {
         "_id": "111111484879ab9b6a111111",
         "userId": "111111e5-760c-1111-9254-127643111111",
         "fullName": "John",
