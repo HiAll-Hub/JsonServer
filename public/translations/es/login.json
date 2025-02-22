@@ -14,5 +14,7 @@
     "resendCode": "Reenviar Código",
     "confirmSendCode": "¿Estás seguro de que deseas reenviar el código SMS a este número",
     "invalidCodeSms": "El código no es válido, Por favor, inténtelo de nuevo",
-    "Verify Email": "Mantén su cuenta segura - verifique su correo electrónico para mantener el acceso"
+    "Verify Email": "Mantén su cuenta segura - verifique su correo electrónico para mantener el acceso",
+    "Email": "Email",
+    "Invalid Email": "Email Invalido"
 }

@@ -14,5 +14,7 @@
     "resendCode": "Resend Code",
     "confirmSendCode": "Are you sure you want to resend the SMS code to this number",
     "invalidCodeSms": "Code is invalid, Please try again",
-    "Verify Email": "Keep your account secure — verify your email to maintain access"
+    "Verify Email": "Keep your account secure - verify your email to maintain access",
+    "Email": "Email",
+    "Invalid Email": "Invalid Email"
 }
