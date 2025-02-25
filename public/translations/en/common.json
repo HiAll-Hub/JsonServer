@@ -9,5 +9,19 @@
     "Welcome": "Welcome",
     "Save": "Save",
     "Next": "Next",
-    "Back": "Back"
+    "Back": "Back",
+    "Year": "Year",
+    "Month": "Month",
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December"
 }
