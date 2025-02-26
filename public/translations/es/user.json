@@ -15,5 +15,10 @@
     "Mouth": "Boca",
     "Color Skin": "Color de piel",
     "Basic Information": "Información básica",
-    "Birthday": "Cumpleaños"
+    "Birthday": "Cumpleaños",
+    "Full Name": "Nombre completo",
+    "Gender": "Género",
+    "Male": "Masculino",
+    "Female": "Femenino",
+    "Non-Binary": "No binario"
 }

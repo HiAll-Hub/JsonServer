@@ -15,5 +15,10 @@
     "Mouth": "Mouth",
     "Color Skin": "Skin Color",
     "Basic Information": "Basic Information",
-    "Birthday": "Birthday"
+    "Birthday": "Birthday",
+    "Full Name": "Full Name",
+    "Gender": "Gender",
+    "Male": "Male",
+    "Female": "Female",
+    "Non-Binary": "Non-binary"
 }
