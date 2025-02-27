@@ -20,5 +20,10 @@
     "Gender": "Gender",
     "Male": "Male",
     "Female": "Female",
-    "Non-Binary": "Non-binary"
+    "Non-Binary": "Non-binary",
+    "Invalid Full Name": "Invalid Full Name",
+    "Invalid Birthday": "Invalid Birthday",
+    "Missing Year": "The year is missing",
+    "Missing Month": "The month is missing",
+    "Missing Gender": "Gender is missing"
 }

@@ -20,5 +20,10 @@
     "Gender": "Género",
     "Male": "Masculino",
     "Female": "Femenino",
-    "Non-Binary": "No binario"
+    "Non-Binary": "No binario",
+    "Invalid Full Name": "Nombre inválido",
+    "Invalid Birthday": "Cumpleaños inválido",
+    "Missing Year": "Falta el año",
+    "Missing Month": "Falta el mes",
+    "Missing Gender": "Falta el género"
 }
