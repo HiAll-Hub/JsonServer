@@ -23,5 +23,9 @@
     "September": "September",
     "October": "October",
     "November": "November",
-    "December": "December"
+    "December": "December",
+    "Error": "Error",
+    "Something went wrong": "Oops! Something went wrong. Please try again later. We apologize for the inconvenience.",
+    "Done": "Done",
+    "sms_send_failed": "Failed to send SMS"
 }

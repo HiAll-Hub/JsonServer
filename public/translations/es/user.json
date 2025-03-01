@@ -25,5 +25,16 @@
     "Invalid Birthday": "Cumpleaños inválido",
     "Missing Year": "Falta el año",
     "Missing Month": "Falta el mes",
-    "Missing Gender": "Falta el género"
+    "Missing Gender": "Falta el género",
+    "Full name required": "El nombre completo es requerido",
+    "Full name 3 char": "El nombre completo debe tener al menos 3 caracteres",
+    "Full name 100 chars": "El nombre completo debe tener menos de 100 caracteres",
+    "Alias 3 char": "El alias debe tener al menos 3 caracteres",
+    "Alias 100 chars": "El alias debe tener menos de 100 caracteres",
+    "Invalid Alias": "El alias tiene caracteres inválidos",
+    "Only Valid letters": "El nombre completo tiene caracteres válidos",
+    "Two spaces": "El nombre completo no puede tener dos espacios",
+    "Year required": "El año es requerido",
+    "Month required": "El mes es requerido",
+    "Gender required": "El género es requerido"
 }

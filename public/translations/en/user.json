@@ -25,5 +25,16 @@
     "Invalid Birthday": "Invalid Birthday",
     "Missing Year": "The year is missing",
     "Missing Month": "The month is missing",
-    "Missing Gender": "Gender is missing"
+    "Missing Gender": "Gender is missing",
+    "Full name required": "Full name is required",
+    "Full name 3 char": "Full name must be at least 3 characters",
+    "Full name 100 chars": "Full name must be less than 100 characters",
+    "Alias 3 char": "Alias must be at least 3 characters",
+    "Alias 100 chars": "Alias must be less than 100 characters",
+    "Invalid Alias": "Alias has invalid characters",
+    "Only Valid letters": "Full name has valid characters",
+    "Two spaces": "Full name cannot have two spaces",
+    "Year required": "Year is required",
+    "Month required": "Month is required",
+    "Gender required": "Gender is required"
 }
