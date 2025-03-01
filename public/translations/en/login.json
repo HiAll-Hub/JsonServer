@@ -10,6 +10,8 @@
     "messageRateApply": "Standard message and data rates may apply.",
     "sendVerificationCode": "Send Verification Code",
     "smsCode": "SMS Code",
+    "SMS required": "SMS is required",
+    "Invalid code": "Invalid code",
     "didntReceiveCode": "Didn't receive anything? No worries, let's try again.",
     "resendCode": "Resend Code",
     "confirmSendCode": "Are you sure you want to resend the SMS code to this number",

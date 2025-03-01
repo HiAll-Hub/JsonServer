@@ -10,6 +10,8 @@
     "messageRateApply": "Pueden aplicarse tarifas estándar de mensajes y datos.",
     "sendVerificationCode": "Enviar Código de Verificación",
     "smsCode": "Código SMS",
+    "SMS required": "Se requiere Codigo SMS",
+    "Invalid code": "Código no válido",
     "didntReceiveCode": "¿No recibiste nada? No te preocupes, intentémoslo de nuevo.",
     "resendCode": "Reenviar Código",
     "confirmSendCode": "¿Estás seguro de que deseas reenviar el código SMS a este número",
